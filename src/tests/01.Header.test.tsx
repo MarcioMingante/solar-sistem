@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from '../App';
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 
 describe('1 - Crie um componente chamado `Header`', () => {
   it('Será validado se o componente `<Header />` é renderizado', () => {

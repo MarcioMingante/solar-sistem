@@ -1,16 +1,18 @@
-import Title from './Title';
-import planets from '../data/planets';
-import PlanetCard from './PlanetCard';
+import './SolarSystem.css';
+import Title from '../Title';
+import planets from '../../data/planets';
+import PlanetCard from '../PlanetCard/PlanetCard';
 
 function SolarSystem() {
   return (
-    <div data-testid="solar-system">
+    <div className="solar-system-container" data-testid="solar-system">
       <Title headline="Planetas" />
-      <div>
+      <div className="solar-system-cards">
         {planets.map((planet) => (
           <PlanetCard
             planetName={ planet.name }
             planetImage={ planet.image }
+            className={ planet.name }
             key={ planet.name }
           />
         ))}

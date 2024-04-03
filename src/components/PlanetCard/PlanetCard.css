@@ -1,0 +1,135 @@
+.card {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.card img {
+  filter: drop-shadow(0 0 0.75rem rgb(75, 75, 75));  
+}
+
+/* .card:hover {
+  filter: drop-shadow(0 0 00.75rem blue);
+} */
+
+.card .text {
+  height: 65px;
+}
+
+.card .text p {
+  font-size: 20px;
+  color: white;
+}
+
+.card .Mercúrio {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Mercúrio:hover {
+  filter: drop-shadow(0 0 00.75rem blue);
+}
+
+.card .Mercúrio img {
+  width: 41px;
+}
+
+.card .Vênus {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Vênus:hover {
+  filter: drop-shadow(0 0 00.75rem rgb(179, 179, 29));
+}
+
+.card .Vênus img {
+  width: 102px;
+}
+
+.card .Terra {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Terra:hover {
+  filter: drop-shadow(0 0 00.75rem blue);
+}
+
+.card .Terra img {
+  width: 106px;
+}
+
+.card .Marte {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Marte:hover {
+  filter: drop-shadow(0 0 00.75rem rgb(255, 174, 23));
+}
+
+.card .Marte img {
+  width: 66px;
+}
+
+.card .Júpiter {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Júpiter:hover {
+  filter: drop-shadow(0 0 00.75rem rgb(141, 141, 141));
+}
+
+.card .Júpiter img {
+  width: 272px;
+}
+
+.card .Saturno {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Saturno:hover {
+  filter: drop-shadow(0 0 00.75rem rgb(231, 231, 49));
+}
+
+.card .Saturno img {
+  width: 282px;
+}
+
+.card .Urano {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Urano:hover {
+  filter: drop-shadow(0 0 00.75rem rgb(131, 131, 240));
+}
+
+.card .Urano img {
+  width: 144px;
+}
+
+.card .Netuno {
+  margin:auto;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.card .Netuno:hover {
+  filter: drop-shadow(0 0 00.75rem blue);
+}
+
+.card .Netuno img {
+  width: 144px;
+}
