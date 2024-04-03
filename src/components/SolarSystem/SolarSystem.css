@@ -1,7 +1,7 @@
 .solar-system-container {
   align-items: center;
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
 }
 
 .solar-system-container h2 {
