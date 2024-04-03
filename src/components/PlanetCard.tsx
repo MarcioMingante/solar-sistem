@@ -1,9 +1,9 @@
-type PlanetCardType = {
+type PlanetCardProps = {
   planetName: string,
-  planetImage: string
+  planetImage: string,
 };
 
-function PlanetCard({ planetName, planetImage }: PlanetCardType) {
+function PlanetCard({ planetName, planetImage }: PlanetCardProps) {
   const mesage = `Planeta ${planetName}`;
 
   return (
