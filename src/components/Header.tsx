@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import image from './logo-sistema-solar.png';
+import image from '../images/logo-sistema-solar.png';
 
 function Header() {
   return (

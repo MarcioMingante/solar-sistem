@@ -5,6 +5,12 @@
   color: white;
   margin-bottom: 20px;
   width: 45%;
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+}
+
+.mission-card:hover {
+  background-color: black;
 }
 
 .mission-card-title {
@@ -32,6 +38,7 @@
 
 .mission-card-format {
   display: flex;
+  align-items: center;
 }
 
 .mission-card-format img {
