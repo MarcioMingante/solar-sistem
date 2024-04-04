@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import SolarSystem from '../components/SolarSystem/SolarSystem';
+import SolarSystem from '../components/SolarSystem';
 
 describe('4 - Renderize o componente `Title` dentro do componente `SolarSystem`', () => {
   it('Será validado se o texto "Planetas" é renderizado usando o componente `Title` dentro do componente `SolarSystem`', () => {

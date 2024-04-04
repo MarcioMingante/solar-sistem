@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from '../App';
-import SolarSystem from '../components/SolarSystem/SolarSystem';
+import SolarSystem from '../components/SolarSystem';
 
 describe('2 - Crie um componente chamado `SolarSystem`', () => {
   it('Será verificado se o componente <SolarSystem /> existe', () => {

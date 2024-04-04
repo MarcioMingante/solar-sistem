@@ -1,0 +1,22 @@
+.missions-container {
+  align-items: center;
+  background-color: rgba(102, 102, 102, 0.3);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  width: 85%;
+}
+
+.missions-container h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.missions-container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

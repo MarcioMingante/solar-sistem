@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import SolarSystem from './components/SolarSystem/SolarSystem';
+import SolarSystem from './components/SolarSystem';
 import Missions from './components/Missions';
 
 function App() {

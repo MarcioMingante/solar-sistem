@@ -1,7 +1,7 @@
 import './SolarSystem.css';
-import Title from '../Title';
-import planets from '../../data/planets';
-import PlanetCard from '../PlanetCard/PlanetCard';
+import Title from './Title';
+import planets from '../data/planets';
+import PlanetCard from './PlanetCard/PlanetCard';
 
 function SolarSystem() {
   return (

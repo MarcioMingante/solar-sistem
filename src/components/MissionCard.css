@@ -1,0 +1,39 @@
+.mission-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px rgb(255, 255, 255, 0.8) solid;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.mission-card-title {
+  border-bottom: 1px rgb(255, 255, 255, 0.8) solid;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.mission-card-info {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission-card-destination {
+  width: 30%;
+}
+
+.mission-card-info-main {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+  width: 40%;
+}
+
+.mission-card-format {
+  display: flex;
+}
+
+.mission-card-format img {
+  margin-right: 10px;
+}
